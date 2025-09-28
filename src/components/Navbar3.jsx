@@ -13,7 +13,7 @@ export default function Navbar2() {
         <div className='w-full bg-gray-800 text-white z-20 font-primary px-6 py-10 md:px-20 lg:px-40 shadow-lg'>
             <div className='flex justify-between items-center'>
                 <Link to= '/'>
-                <h1 className='text-white lg:text-xl text-sm'>SUVIDHA FOUNDATIONS</h1>
+                <h1 className='text-white lg:text-xl text-sm'>WELFARE FOUNDATIONS</h1>
                 </Link>
                 <div className='lg:hidden flex items-center'>
                     <button onClick={toggleMenu} className='text-white'>
@@ -26,7 +26,7 @@ export default function Navbar2() {
                     <Link to='/gallery' className='hover:text-black'>Gallery</Link>
                     <Link to='/donors' className='hover:text-black'>Donors</Link>
                     <button
-                        onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSfAaaHU-k256CY6_83JPBOYeVFtKuKBvqMJb7oBIsDLKRmwNg/viewform', '_blank')}
+
                         className="hover:text-black"
                     >
                         Contact Us
@@ -51,7 +51,7 @@ export default function Navbar2() {
                     Donors
                 </Link>
                 <button
-                        onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSfAaaHU-k256CY6_83JPBOYeVFtKuKBvqMJb7oBIsDLKRmwNg/viewform', '_blank')}
+                        
                         className="hover:text-black"
                     >
                         Contact Us

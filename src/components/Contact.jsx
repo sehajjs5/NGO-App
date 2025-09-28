@@ -24,7 +24,7 @@ export default function Contact() {
             <CiMail className='text-white'/>
             </button>
             <span className='hidden lg:block'> 
-            info@suvidhafoundationedutech.org
+            email@email.com
             </span>
             </div>
             <div className='flex'>
